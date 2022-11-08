@@ -7,7 +7,6 @@ public class Reciever {
     final int thisPort = 11111;
     final String networkInterfaceName = "wlan1";
     String printablData;
-
     byte[] inData = new byte[256];
     public Reciever() throws IOException {
         InetAddress inetAddress = InetAddress.getByName(multicastAdress);
