@@ -2,7 +2,6 @@ package Uppgift4;
 import javax.swing.*;
 import java.io.IOException;
 import java.net.*;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 public class Sender {
     private LocalDateTime localDateTime = LocalDateTime.now();
@@ -19,7 +18,7 @@ public class Sender {
     String userInputTemperature;
     String upDataAsString;
     InetAddress inetAddress;
-    DatagramSocket datagramSocket = new DatagramSocket();
+    MulticastSocket multicastSocket = new MulticastSocket();
     Sender() throws IOException, InterruptedException {
         inetAddress = InetAddress.getByName(ipAdress);
         while(true){
@@ -34,7 +33,7 @@ public class Sender {
             upDataAsString = userInputCity + commaAndSpace + userInputTemperature + celcius + newLine + timestamp;
             byte[] upDataAsByte = upDataAsString.getBytes();
             DatagramPacket datagramPacket = new DatagramPacket(upDataAsByte, upDataAsByte.length,inetAddress,destinationPort);
-            datagramSocket.send(datagramPacket);
+            multicastSocket.send(datagramPacket);
             Thread.sleep(15000);
         }
     }

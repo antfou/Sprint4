@@ -2,16 +2,17 @@ package Uppgift4;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
+import java.net.MulticastSocket;
+
 public class Reciever {
     final int thisPort = 11111;
     String printablData;
-    DatagramSocket datagramSocket = new DatagramSocket(thisPort);
+    MulticastSocket multicastSocket = new MulticastSocket(thisPort);
     byte[] inData = new byte[256];
     public Reciever() throws IOException {
         while(true){
             DatagramPacket datagramPacket = new DatagramPacket(inData, inData.length);
-            datagramSocket.receive(datagramPacket);
+            multicastSocket.receive(datagramPacket);
             printablData = new String(datagramPacket.getData(),0, datagramPacket.getLength());
             System.out.println(printablData);
         }
