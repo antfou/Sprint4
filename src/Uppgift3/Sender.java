@@ -1,7 +1,11 @@
 package Uppgift3;
 
 public class Sender {
-    public static void main(String[] args) {
+    Graphics graphics = new Graphics();
+    Sender(){
 
+    }
+    public static void main(String[] args) {
+        new Sender();
     }
 }

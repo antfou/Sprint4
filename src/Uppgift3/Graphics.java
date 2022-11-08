@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class Graphics extends JFrame implements ActionListener{
     String userName = "";
+    String userInput = "";
     final JButton jButton = new JButton("Koppla Ner");
     JTextArea jTextArea = new JTextArea();
     JTextField jTextField = new JTextField();
@@ -21,6 +22,12 @@ public class Graphics extends JFrame implements ActionListener{
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
+    public String getUserName(){
+        return userName;
+    }
+    public String getUserInput(){
+        return userInput;
+    }
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource().equals(jButton)){
@@ -31,10 +38,9 @@ public class Graphics extends JFrame implements ActionListener{
                         "Klicka på 'koppla ner för att köra igång!");
                 jTextField.setText("");
             }else {
-                final String userInput1 = jTextField.getText();
+                userInput = jTextField.getText();
                 jTextField.setText("");
-                jTextArea.append(userName + ": " + userInput1);
-                jTextArea.append("\n");
+                jTextArea.append(userName + ": " + userInput + "\n");
             }
         }
     }
