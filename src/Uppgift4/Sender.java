@@ -6,7 +6,8 @@ import java.time.LocalDateTime;
 public class Sender {
     private LocalDateTime localDateTime = LocalDateTime.now();
     String timestamp;
-    String ipAdress = "localHost";
+    final String multicastAdress = "234.235.236.237";
+    final String networkInterfaceName = "wlan1";
     final String exitMessage = "Hej då!";
     final int destinationPort = 11111;
     final String messagePrompt1 = "Vilken stad vill du rapportera?";
@@ -18,9 +19,12 @@ public class Sender {
     String userInputTemperature;
     String upDataAsString;
     InetAddress inetAddress;
-    MulticastSocket multicastSocket = new MulticastSocket();
     Sender() throws IOException, InterruptedException {
-        inetAddress = InetAddress.getByName(ipAdress);
+        inetAddress = InetAddress.getByName(multicastAdress);
+        InetSocketAddress inetSocketAddress = new InetSocketAddress(inetAddress,destinationPort);
+        NetworkInterface networkInterface = NetworkInterface.getByName(networkInterfaceName);
+        MulticastSocket multicastSocket = new MulticastSocket(destinationPort);
+        multicastSocket.joinGroup(inetSocketAddress,networkInterface);
         while(true){
             userInputCity = JOptionPane.showInputDialog(messagePrompt1);
             userInputTemperature = JOptionPane.showInputDialog(messagePrompt2);
@@ -32,7 +36,7 @@ public class Sender {
             timestamp = localDateTime.toString();
             upDataAsString = userInputCity + commaAndSpace + userInputTemperature + celcius + newLine + timestamp;
             byte[] upDataAsByte = upDataAsString.getBytes();
-            DatagramPacket datagramPacket = new DatagramPacket(upDataAsByte, upDataAsByte.length,inetAddress,destinationPort);
+            DatagramPacket datagramPacket = new DatagramPacket(upDataAsByte, upDataAsByte.length, inetAddress, destinationPort);
             multicastSocket.send(datagramPacket);
             Thread.sleep(15000);
         }

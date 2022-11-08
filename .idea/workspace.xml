@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Updated methods to the &quot;Graphics, Sender, Reciever&quot; class in uppgift 3.">
-      <change afterPath="$PROJECT_DIR$/src/Kladdis/ListNetworkInterface.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added &quot;ListNetworkInterface&quot; class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppgift4/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift4/Reciever.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppgift4/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift4/Sender.java" afterDir="false" />
@@ -38,7 +37,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListNetworkInterface">
+  <component name="RunManager" selected="Application.Uppgift4.Sender">
     <configuration name="ListNetworkInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kladdis.ListNetworkInterface" />
       <module name="Sprint4" />
@@ -113,9 +112,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Uppgift4.Sender" />
         <item itemvalue="Application.Uppgift4.Reciever" />
+        <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Uppgift3.Reciever" />
         <item itemvalue="Application.Sender" />
       </list>
@@ -129,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
-      <workItem from="1667893696995" duration="13986000" />
+      <workItem from="1667893696995" duration="15366000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -179,7 +178,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1667913112902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Added &quot;ListNetworkInterface&quot; class.">
+      <created>1667914489872</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1667914489872</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +210,7 @@
     <MESSAGE value="Cleaned up code in &quot;Uppgift 4a&quot;." />
     <MESSAGE value="Added methods to the &quot;Graphics&quot; class in uppgift 3." />
     <MESSAGE value="Updated methods to the &quot;Graphics, Sender, Reciever&quot; class in uppgift 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated methods to the &quot;Graphics, Sender, Reciever&quot; class in uppgift 3." />
+    <MESSAGE value="Added &quot;ListNetworkInterface&quot; class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;ListNetworkInterface&quot; class." />
   </component>
 </project>
