@@ -1,10 +1,8 @@
 package Uppgift4;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
-
 public class Reciever {
     final int thisPort = 11111;
     String printablData;

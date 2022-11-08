@@ -1,11 +1,9 @@
 package Uppgift4;
-
 import javax.swing.*;
 import java.io.IOException;
 import java.net.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
 public class Sender {
     private LocalDateTime localDateTime = LocalDateTime.now();
     String timestamp;
@@ -16,6 +14,7 @@ public class Sender {
     final String messagePrompt2 = "Vilken temperatur var det?";
     final String commaAndSpace = ", ";
     final String celcius = " celcius.";
+    final String newLine = "\n";
     String userInputCity;
     String userInputTemperature;
     String upDataAsString;
@@ -32,7 +31,7 @@ public class Sender {
                 System.exit(0);
             }
             timestamp = localDateTime.toString();
-            upDataAsString = userInputCity + commaAndSpace + userInputTemperature + celcius + "\n" + timestamp;
+            upDataAsString = userInputCity + commaAndSpace + userInputTemperature + celcius + newLine + timestamp;
             byte[] upDataAsByte = upDataAsString.getBytes();
             DatagramPacket datagramPacket = new DatagramPacket(upDataAsByte, upDataAsByte.length,inetAddress,destinationPort);
             datagramSocket.send(datagramPacket);
