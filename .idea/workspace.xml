@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift 2a + 2b&quot;">
-      <change beforePath="$PROJECT_DIR$/src/Uppgift2/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift2/Sender.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Cleaned up code in &quot;Uppgift 2a + 2b&quot;.">
+      <change afterPath="$PROJECT_DIR$/src/Uppgift4/Reciever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift4/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Sender">
+  <component name="RunManager" selected="Application.Uppgift4.Sender">
     <configuration name="Reciever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift2.Reciever" />
       <module name="Sprint4" />
@@ -49,7 +51,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Sender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift2.Sender" />
       <module name="Sprint4" />
       <extension name="coverage">
@@ -62,8 +64,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Uppgift4.Reciever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift4.Reciever" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uppgift4.Sender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift4.Sender" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Uppgift4.Reciever" />
+      <item itemvalue="Application.Uppgift4.Sender" />
+      <item itemvalue="Application.Reciever" />
+      <item itemvalue="Application.Sender" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uppgift4.Sender" />
+        <item itemvalue="Application.Uppgift4.Reciever" />
         <item itemvalue="Application.Sender" />
         <item itemvalue="Application.Reciever" />
       </list>
@@ -77,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
-      <workItem from="1667893696995" duration="6410000" />
+      <workItem from="1667893696995" duration="9907000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -97,7 +133,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1667903065584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Cleaned up code in &quot;Uppgift 2a + 2b&quot;.">
+      <created>1667907075829</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1667907075829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +160,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added &quot;Kladdis&quot; class." />
     <MESSAGE value="Done with &quot;Uppgift 2a + 2b&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Uppgift 2a + 2b&quot;" />
+    <MESSAGE value="Cleaned up code in &quot;Uppgift 2a + 2b&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code in &quot;Uppgift 2a + 2b&quot;." />
   </component>
 </project>
