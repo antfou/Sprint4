@@ -1,0 +1,44 @@
+>ipconfig - (kortkommando för att dra fram ip info)
+
+
+Datagram Methods:
+    • DatagramPacket d = new DatagramPacket(data,
+    data.length, tillAdr, tillPort);
+    • getData() – ger datat i datagrammet
+    • getLength() - ger längden på datat (på bytearrayen)
+    • getAddress() – ger sändarens InetAddress (vid mottagning)
+    • getPort() – ger sändarens portnummer (vid mottagning)
+    • Notera att det är mottagarens adress som anges i konstruktorn men
+    sändarens adress som fås av getAddress()
+
+Inet Adress
+    • Representerar en IP-adress på nätet (obs, inte samma sak som url)
+    • Saknar konstruktor
+    • Skapas genom att någon av följande statiska metoder anropas
+    • InetAddress.getLocalHost() – ger namnet på den egna datorn
+    • InetAddress.getByName(”namn”) - där namn är en IP-adress eller namn på en dator
+    • Användbara metoder:
+    • getHostName() – ger datornamnet för denna InetAddress
+    • getHostAddress() – ger IP-adressen för denna InetAddress
+    • isMultiCastAddress – kan denna adress användas för att skicka meddelanden till många
+    samtidigt?
+
+DatagramSocket
+    (Måste stängas eller skapas upp med try-with resources)
+    (Sida 44+45 för demo)
+    • För att kunna skicka ett datagram måste vi skapa en DatagramSocket
+    • DatagramSocket socket = new DatagramSocket();
+    • Sändaren behöver inte ha portnumer
+    • DatagramSocket socket = new DatagramSocket(int port);
+    • Mottagaren måste ha portnummer så att den vet vad den ska lyssna efter
+    • För att skicka datagram:
+    • Socket.send(packet);
+    • Ger IOException om sändningen misslyckas
+    • Notera att detta inte säger någon om paketet faktiskt kom fram eller inte
+    • Send(datagram) – skickar ett datagram
+    • Receive(datagram) – tar emot et datagram
+    • setSoTimeout(ms) – anger hur många millisekunder receive ska vänta
+    innan den ger InterruptedIOException
+    • Close() – stänger förbildelsen
+    • getLocalPort – ger portnumret som socketen är bunden till
+
