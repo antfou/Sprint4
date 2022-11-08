@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added &quot;Kladdis&quot; class.">
-      <change afterPath="$PROJECT_DIR$/src/Kladdis/KladdNotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift2/Reciever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift2/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Kladdis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kladdis/Kladdis.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift 2a + 2b&quot;">
+      <change beforePath="$PROJECT_DIR$/src/Uppgift2/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift2/Sender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
-      <workItem from="1667893696995" duration="6145000" />
+      <workItem from="1667893696995" duration="6410000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -95,7 +91,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1667894243101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Done with &quot;Uppgift 2a + 2b&quot;">
+      <created>1667903065584</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1667903065584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added &quot;Kladdis&quot; class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Kladdis&quot; class." />
+    <MESSAGE value="Done with &quot;Uppgift 2a + 2b&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Uppgift 2a + 2b&quot;" />
   </component>
 </project>

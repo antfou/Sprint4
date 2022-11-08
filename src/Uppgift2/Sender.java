@@ -10,7 +10,7 @@ import java.util.List;
 public class Sender {
 
     public static void main(String[] args) throws UnknownHostException, SocketException, InterruptedException {
-        String adress = "localHost";
+        String ipAdress = "localHost";
         final int destinationPort = 1337;
         String message;
         int counter = 0;
@@ -21,7 +21,7 @@ public class Sender {
         stringList.add(quote1);
         stringList.add(quote2);
         stringList.add(quote3);
-        InetAddress inetAddress = InetAddress.getByName(adress);
+        InetAddress inetAddress = InetAddress.getByName(ipAdress);
         DatagramSocket datagramSocket = new DatagramSocket();
         while (true) {
             message = stringList.get(counter);
