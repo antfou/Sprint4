@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputMethodListener;
 
 public class Graphics extends JFrame implements ActionListener{
     String userName = "";
@@ -17,6 +18,7 @@ public class Graphics extends JFrame implements ActionListener{
         add(jTextField,BorderLayout.SOUTH);
         jButton.addActionListener((ActionListener) this);
         jTextField.addActionListener((ActionListener) this);
+        jTextArea.setEditable(false);
         setLocation(100,100);
         setSize(400,800);
         setVisible(true);
@@ -34,9 +36,11 @@ public class Graphics extends JFrame implements ActionListener{
             userName = JOptionPane.showInputDialog("Vem chattar?");
         } else if (e.getSource().equals(jTextField)) {
             if (userName.isEmpty()){
-                JOptionPane.showMessageDialog(null,"Vänligen skriv in ditt användarnamn innan du börjar chatta. \n" +
+                JOptionPane.showMessageDialog(null,"Vänligen skriv in ditt användarnamn innan du börjar chatta." +
+                        " \n                " +
                         "Klicka på 'koppla ner för att köra igång!");
                 jTextField.setText("");
+                jTextArea.setText("");
             }else {
                 userInput = jTextField.getText();
                 jTextField.setText("");

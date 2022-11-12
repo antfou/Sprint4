@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added Properties Labb.">
-      <change afterPath="$PROJECT_DIR$/src/Kladdis/URL/URLVideo.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added URL Labb.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/Reciever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.URLVideo">
+  <component name="RunManager" selected="Application.Reciever">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kladdis.Generics.Box" />
       <module name="Sprint4" />
@@ -63,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kladdis.URL.URLVideo" />
+    <configuration name="Reciever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift3.Reciever" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kladdis.URL.*" />
+          <option name="PATTERN" value="Uppgift3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift4.Reciever" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift4.Reciever" />
+    <configuration name="URLVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kladdis.URL.URLVideo" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift4.*" />
+          <option name="PATTERN" value="Kladdis.URL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,17 +106,17 @@
     <list>
       <item itemvalue="Application.Box" />
       <item itemvalue="Application.PropertiesVideo" />
+      <item itemvalue="Application.Reciever" />
       <item itemvalue="Application.URLVideo" />
-      <item itemvalue="Application.Uppgift4.Reciever" />
       <item itemvalue="Application.Uppgift4.Sender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reciever" />
         <item itemvalue="Application.URLVideo" />
         <item itemvalue="Application.PropertiesVideo" />
         <item itemvalue="Application.Box" />
         <item itemvalue="Application.Uppgift4.Sender" />
-        <item itemvalue="Application.Uppgift4.Reciever" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
-      <workItem from="1668253052418" duration="2573000" />
+      <workItem from="1668253052418" duration="3599000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668255125695</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added URL Labb.">
+      <created>1668255929423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668255929423</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +242,7 @@
     <MESSAGE value="Done with Uppgift 4b." />
     <MESSAGE value="Added generics Labb." />
     <MESSAGE value="Added Properties Labb." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Properties Labb." />
+    <MESSAGE value="Added URL Labb." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added URL Labb." />
   </component>
 </project>
