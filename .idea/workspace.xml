@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with Uppgift 4b.">
+      <change afterPath="$PROJECT_DIR$/src/Kladdis/Generics/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kladdis/Generics/GenericsVideo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift4/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift4/Reciever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +30,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Uppgift4.Sender">
-    <configuration name="ListNetworkInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kladdis.ListNetworkInterface" />
+}</component>
+  <component name="RunManager" selected="Application.Box">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kladdis.Generics.Box" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kladdis.*" />
+          <option name="PATTERN" value="Kladdis.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift2.Sender" />
+    <configuration name="ListNetworkInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kladdis.ListNetworkInterface" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift2.*" />
+          <option name="PATTERN" value="Kladdis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,19 +104,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Box" />
       <item itemvalue="Application.ListNetworkInterface" />
       <item itemvalue="Application.Uppgift3.Reciever" />
       <item itemvalue="Application.Uppgift4.Reciever" />
       <item itemvalue="Application.Uppgift4.Sender" />
-      <item itemvalue="Application.Sender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Box" />
         <item itemvalue="Application.Uppgift4.Sender" />
         <item itemvalue="Application.Uppgift4.Reciever" />
         <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Uppgift3.Reciever" />
-        <item itemvalue="Application.Sender" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
+      <workItem from="1668253052418" duration="588000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
