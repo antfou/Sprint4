@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with Uppgift 4b.">
-      <change afterPath="$PROJECT_DIR$/src/Kladdis/Generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kladdis/Generics/GenericsVideo.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added generics Labb.">
+      <change afterPath="$PROJECT_DIR$/src/Kladdis/Properties/PropertiesVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kladdis/Properties/propertiesVideo.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kladdis/Generics/GenericsVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kladdis/Generics/GenericsVideo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Box">
+  <component name="RunManager" selected="Application.PropertiesVideo">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kladdis.Generics.Box" />
       <module name="Sprint4" />
@@ -64,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift3.Reciever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift3.Reciever" />
+    <configuration name="PropertiesVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kladdis.Properties.PropertiesVideo" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift3.*" />
+          <option name="PATTERN" value="Kladdis.Properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,18 +106,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Box" />
+      <item itemvalue="Application.PropertiesVideo" />
       <item itemvalue="Application.ListNetworkInterface" />
-      <item itemvalue="Application.Uppgift3.Reciever" />
       <item itemvalue="Application.Uppgift4.Reciever" />
       <item itemvalue="Application.Uppgift4.Sender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PropertiesVideo" />
         <item itemvalue="Application.Box" />
         <item itemvalue="Application.Uppgift4.Sender" />
         <item itemvalue="Application.Uppgift4.Reciever" />
         <item itemvalue="Application.ListNetworkInterface" />
-        <item itemvalue="Application.Uppgift3.Reciever" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
-      <workItem from="1668253052418" duration="588000" />
+      <workItem from="1668253052418" duration="1998000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -191,7 +192,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1667915876477</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added generics Labb.">
+      <created>1668253661095</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668253661095</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +227,7 @@
     <MESSAGE value="Updated methods to the &quot;Graphics, Sender, Reciever&quot; class in uppgift 3." />
     <MESSAGE value="Added &quot;ListNetworkInterface&quot; class." />
     <MESSAGE value="Done with Uppgift 4b." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with Uppgift 4b." />
+    <MESSAGE value="Added generics Labb." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added generics Labb." />
   </component>
 </project>
