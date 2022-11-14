@@ -1,4 +1,4 @@
-package Kladdis.Generics;
+package GottÅBlandat.Generics;
 
 public class Box<T> {
     private T content1;

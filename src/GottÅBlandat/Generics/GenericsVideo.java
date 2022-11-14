@@ -1,4 +1,4 @@
-package Kladdis.Generics;
+package GottÅBlandat.Generics;
 
 public class GenericsVideo {
     //See Box.java

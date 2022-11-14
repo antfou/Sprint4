@@ -1,4 +1,4 @@
-package Kladdis;
+package GottÅBlandat;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
