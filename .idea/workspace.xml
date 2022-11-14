@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift 13&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/Uppgift15/GenericQueueClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift15/GenericQueueInterface.java" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Started on &quot;Uppgift 15&quot;.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Generics/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Generics/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Generics/GenericsVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Generics/GenericsVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/KladdNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/KladdNotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Kladdis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Kladdis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/ListNetworkInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/ListNetworkInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Properties/PropertiesVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Properties/PropertiesVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/Properties/propertiesVideo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Properties/propertiesVideo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kladdis/URL/URLVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/URL/URLVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift15/GenericQueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift15/GenericQueueClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Uppgift13.HuvudProgram">
     <configuration name="HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift3.HuvudProgram" />
@@ -140,7 +131,9 @@
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
       <workItem from="1668253052418" duration="4364000" />
-      <workItem from="1668412999229" duration="10512000" />
+      <workItem from="1668412999229" duration="10542000" />
+      <workItem from="1668427001124" duration="777000" />
+      <workItem from="1668433031278" duration="932000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -251,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668422541869</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Started on &quot;Uppgift 15&quot;.">
+      <created>1668423652436</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668423652436</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +286,7 @@
     <MESSAGE value="Made a bunch of changes to &quot;Uppgift 3&quot;." />
     <MESSAGE value="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;" />
     <MESSAGE value="Done with &quot;Uppgift 13&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Uppgift 13&quot;." />
+    <MESSAGE value="Started on &quot;Uppgift 15&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on &quot;Uppgift 15&quot;." />
   </component>
 </project>
