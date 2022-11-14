@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added URL Labb.">
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Cleaned up code in &quot;Uppgift 3&quot;.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppgift3/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/Graphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppgift3/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/Reciever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/Sender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
-  <component name="RunManager" selected="Application.Reciever">
-    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kladdis.Generics.Box" />
+}]]></component>
+  <component name="RunManager" selected="Application.Sender">
+    <configuration name="ListNetworkInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kladdis.ListNetworkInterface" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kladdis.Generics.*" />
+          <option name="PATTERN" value="Kladdis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift3.Sender" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="URLVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kladdis.URL.URLVideo" />
       <module name="Sprint4" />
@@ -90,33 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift4.Sender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift4.Sender" />
-      <module name="Sprint4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Uppgift4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Box" />
+      <item itemvalue="Application.ListNetworkInterface" />
+      <item itemvalue="Application.Sender" />
       <item itemvalue="Application.PropertiesVideo" />
       <item itemvalue="Application.Reciever" />
       <item itemvalue="Application.URLVideo" />
-      <item itemvalue="Application.Uppgift4.Sender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Reciever" />
         <item itemvalue="Application.URLVideo" />
         <item itemvalue="Application.PropertiesVideo" />
-        <item itemvalue="Application.Box" />
-        <item itemvalue="Application.Uppgift4.Sender" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
-      <workItem from="1668253052418" duration="3599000" />
+      <workItem from="1668253052418" duration="4364000" />
+      <workItem from="1668412999229" duration="4658000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -212,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668255929423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Cleaned up code in &quot;Uppgift 3&quot;.">
+      <created>1668258026738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668258026738</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +254,7 @@
     <MESSAGE value="Added generics Labb." />
     <MESSAGE value="Added Properties Labb." />
     <MESSAGE value="Added URL Labb." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added URL Labb." />
+    <MESSAGE value="Cleaned up code in &quot;Uppgift 3&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code in &quot;Uppgift 3&quot;." />
   </component>
 </project>

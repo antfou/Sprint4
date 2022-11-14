@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.InputMethodListener;
 
-public class Graphics extends JFrame implements ActionListener{
+/*public class Graphics  implements ActionListener{
+    JFrame jFrame = new JFrame();
     String userName = "";
     String userInput = "";
     final JButton jButton = new JButton("Koppla Ner");
@@ -27,8 +27,13 @@ public class Graphics extends JFrame implements ActionListener{
     public String getUserName(){
         return userName;
     }
+    public void setUserName(String userName) {
+        this.userName = userName;}
     public String getUserInput(){
         return userInput;
+    }
+    public void setUserInput(String userInput){
+        this.userInput = userInput;
     }
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -49,3 +54,4 @@ public class Graphics extends JFrame implements ActionListener{
         }
     }
 }
+*/
