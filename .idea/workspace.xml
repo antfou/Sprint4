@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Made a bunch of changes to &quot;Uppgift 3&quot;.">
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;">
+      <change afterPath="$PROJECT_DIR$/src/Uppgift13/HuvudProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Graphics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Reciever.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift3/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/HuvudProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +38,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HuvudProgram">
+  <component name="RunManager" selected="Application.Uppgift13.HuvudProgram">
     <configuration name="HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift3.HuvudProgram" />
       <module name="Sprint4" />
@@ -59,19 +58,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Kladdis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertiesVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kladdis.Properties.PropertiesVideo" />
-      <module name="Sprint4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kladdis.Properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,20 +91,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Uppgift13.HuvudProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift13.HuvudProgram" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.HuvudProgram" />
+      <item itemvalue="Application.Uppgift13.HuvudProgram" />
       <item itemvalue="Application.ListNetworkInterface" />
-      <item itemvalue="Application.PropertiesVideo" />
       <item itemvalue="Application.Reciever" />
       <item itemvalue="Application.URLVideo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uppgift13.HuvudProgram" />
         <item itemvalue="Application.HuvudProgram" />
         <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Reciever" />
         <item itemvalue="Application.URLVideo" />
-        <item itemvalue="Application.PropertiesVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +131,7 @@
       <updated>1667893695398</updated>
       <workItem from="1667893696995" duration="15523000" />
       <workItem from="1668253052418" duration="4364000" />
-      <workItem from="1668412999229" duration="6840000" />
+      <workItem from="1668412999229" duration="9191000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -229,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668417782476</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;">
+      <created>1668420093854</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668420093854</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +268,7 @@
     <MESSAGE value="Added URL Labb." />
     <MESSAGE value="Cleaned up code in &quot;Uppgift 3&quot;." />
     <MESSAGE value="Made a bunch of changes to &quot;Uppgift 3&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a bunch of changes to &quot;Uppgift 3&quot;." />
+    <MESSAGE value="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;" />
   </component>
 </project>
