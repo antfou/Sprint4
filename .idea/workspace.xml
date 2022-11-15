@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Cleaned up code.">
-      <change afterPath="$PROJECT_DIR$/src/Uppgift1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift1/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/KladdProjekt/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/KladdProjekt/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift1/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Uppgift1.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GottÅBlandat.TCP.LiveKodning.Client" />
       <module name="Sprint4" />
@@ -53,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift3.HuvudProgram" />
+    <configuration name="GottÅBlandat.KladdProjekt.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.KladdProjekt.Client" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift3.*" />
+          <option name="PATTERN" value="GottÅBlandat.KladdProjekt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,18 +110,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.GottÅBlandat.KladdProjekt.Client" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Uppgift1.Client" />
       <item itemvalue="Application.Uppgift1.Server" />
-      <item itemvalue="Application.HuvudProgram" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Uppgift1.Client" />
-        <item itemvalue="Application.Uppgift1.Server" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.HuvudProgram" />
+        <item itemvalue="Application.GottÅBlandat.KladdProjekt.Client" />
+        <item itemvalue="Application.Uppgift1.Client" />
+        <item itemvalue="Application.Uppgift1.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +273,19 @@
       <option name="presentableId" value="LOCAL−00021" />
       <updated>1668503717237</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL−00022" summary="Added &quot;Uppgift1&quot;.">
+      <created>1668504701262</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1668504701262</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Cleaned up code.">
+      <created>1668504991179</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1668504991179</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +323,7 @@
     <MESSAGE value="Started on &quot;Uppgift 15&quot;." />
     <MESSAGE value="Notes from leacture." />
     <MESSAGE value="Added live coding server and client from lecture." />
+    <MESSAGE value="Added &quot;Uppgift1&quot;." />
     <MESSAGE value="Cleaned up code." />
     <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code." />
   </component>

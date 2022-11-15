@@ -1,5 +1,7 @@
 package GottÅBlandat.TCP.LiveKodning;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
@@ -13,10 +15,15 @@ public class Client {
     final InetAddress IP_ADRESS = InetAddress.getByName(ADDRESS_HOST);
     public Client() throws UnknownHostException {
         try(Socket socket = new Socket(IP_ADRESS,PORT_NR);
-            PrintWriter outStream = new PrintWriter(socket.getOutputStream(), true)){
+            PrintWriter outStream = new PrintWriter(socket.getOutputStream(), true);
+            BufferedReader insStream = new BufferedReader(new InputStreamReader(socket.getInputStream()))){
+
+            String messageFromServer;
 
             while (true) {
                 outStream.println(MESSAGE);
+                messageFromServer = insStream.readLine();
+                System.out.println(messageFromServer);
                 Thread.sleep(INTERVAL);
             }
         }catch (Exception e){
