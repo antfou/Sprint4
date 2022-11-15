@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Started on &quot;Uppgift 15&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/TCP Lektion" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Notes from leacture.">
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift3/HuvudProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/HuvudProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HuvudProgram">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.TCP.LiveKodning.Client" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GottÅBlandat.TCP.LiveKodning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift3.HuvudProgram" />
       <module name="Sprint4" />
@@ -66,25 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reciever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift3.Reciever" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.TCP.LiveKodning.Server" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URLVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.URL.URLVideo" />
-      <module name="Sprint4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GottÅBlandat.URL.*" />
+          <option name="PATTERN" value="GottÅBlandat.TCP.LiveKodning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +106,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
       <item itemvalue="Application.HuvudProgram" />
       <item itemvalue="Application.Uppgift13.HuvudProgram" />
       <item itemvalue="Application.ListNetworkInterface" />
-      <item itemvalue="Application.Reciever" />
-      <item itemvalue="Application.URLVideo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.HuvudProgram" />
         <item itemvalue="Application.Uppgift13.HuvudProgram" />
         <item itemvalue="Application.ListNetworkInterface" />
-        <item itemvalue="Application.Reciever" />
-        <item itemvalue="Application.URLVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,13 @@
       <option name="project" value="LOCAL" />
       <updated>1668423652436</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Notes from leacture.">
+      <created>1668501877785</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1668501877785</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +294,7 @@
     <MESSAGE value="Done with &quot;Uppgift 3&quot;, added a bunch of comments to &quot;Uppgift 3&quot;;" />
     <MESSAGE value="Done with &quot;Uppgift 13&quot;." />
     <MESSAGE value="Started on &quot;Uppgift 15&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started on &quot;Uppgift 15&quot;." />
+    <MESSAGE value="Notes from leacture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes from leacture." />
   </component>
 </project>
