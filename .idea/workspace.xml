@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Started on &quot;Uppgift 15&quot;.">
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/TCP Lektion" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift15/GenericQueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift15/GenericQueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift3/HuvudProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift3/HuvudProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Uppgift13.HuvudProgram">
+  <component name="RunManager" selected="Application.HuvudProgram">
     <configuration name="HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift3.HuvudProgram" />
       <module name="Sprint4" />
@@ -91,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift13.HuvudProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Uppgift13.HuvudProgram" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift13.HuvudProgram" />
       <module name="Sprint4" />
       <extension name="coverage">
@@ -113,8 +114,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Uppgift13.HuvudProgram" />
         <item itemvalue="Application.HuvudProgram" />
+        <item itemvalue="Application.Uppgift13.HuvudProgram" />
         <item itemvalue="Application.ListNetworkInterface" />
         <item itemvalue="Application.Reciever" />
         <item itemvalue="Application.URLVideo" />

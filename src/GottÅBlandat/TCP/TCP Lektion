@@ -1,0 +1,54 @@
+2-way communication
+Alltid klient och server (bägge kan skicka och ta emot data)
+    uppkopplingen hålls under kommunikationen helt tills programmet stängs av.
+IP: .getLocalHost bör funka.
+Inte låst till byte-arrayer, du kan skicka vilka objekt du vill.
+TCP > UDP (säkerhet) man vet om det man skickat kommer fram och att de kommer fram i rätt ordning.
+TCP < UDP (hastighet) UDP bara kastar, det går snabbt.
+
+    s: sync-sync acc
+    R: sync acc - acc
+    s: acc + appdata - appdata recieved
+
+Initiera sockets på bägge sidor.
+Varje socket - inström + utström.
+Måste wrappa sockets med appropo streams+buffers.
+
+
+SERVERSIDAN:
+    För att en klient ska kunna koppla upp sig måste
+    1. Servern vara igång
+    2. Servern ha en ServerSocket igång som ligger och lyssnar efter klientanrop
+    • En lyssnarsocket skapas
+
+    //SERVERSOCKET SYNTAX:
+    • ServerSocket serverSocket = new ServerSocket(55555);
+    • Socket socketToClient = serverSocket.accept();
+
+    • OBS: ServerSocketen används inte för vanlig kommunikation utan BARA
+            för att lyssna efter klienter som vill ansluta
+
+KLIENTSIDAN:
+    • På klientsidan behövs ingen ServerSocket
+    • Vi kopplar upp oss genom:
+
+    //SERVERSOCKET SYNTAX
+    • Socket socketToServer = new Socket(inetAddress, 55555);
+
+    • inetAddress är serverns IP-adress
+    • IOException eller UnknownHostException om uppkopplingen misslyckas.
+    • Om inget fel ges har vi nu en koppling till servern
+
+
+Kommunikaiton:
+    .request
+    .response
+
+Skriver och läser från sockets på samma sätt som filer.
+
+    PRINT:
+PrintWriter out = new PrintWriter(socket.OutputStream(), true);
+Ture ger dig autoFlush.
+
+    READ:
+BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

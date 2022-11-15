@@ -24,7 +24,7 @@ public class HuvudProgram implements ActionListener, Runnable{
     final Timer timer = new Timer(10000, this);
     //TODO: Här kopplar jag upp mig till nätverket.
     final String multicastAdress = "234.235.236.237";
-     final String networkInterfaceName = "wlan2";
+     final String networkInterfaceName = "wlan1";
      final int destinationPort = 11111;
      InetAddress inetAddress;
      String userInput;
@@ -54,8 +54,6 @@ public class HuvudProgram implements ActionListener, Runnable{
         jFrame.setSize(400,800);
         jFrame.setVisible(true);
         jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-        timer.start();
 
         //TODO: Min reciever som plockar ner uppdata från varje Thread så att alla kan se den nya informationen.
         byte[] inData = new byte[1024];
