@@ -8,14 +8,14 @@ import java.net.Socket;
 
 public class Server {
     final int PORT_NR = 1234;
-    final String ACKNOWLEDGED = "Message recieved: ";
+    final String ACKNOWLEDGED = "Message received: ";
     final String SUCCESFUL_CONNECTION = "Connected.";
     public Server(){
         try(ServerSocket serverSocket = new ServerSocket(PORT_NR);
             Socket socket = serverSocket.accept();
             PrintWriter outStream = new PrintWriter(socket.getOutputStream(), true);
-            BufferedReader insStream = new BufferedReader(new InputStreamReader(socket.getInputStream()))
-        ){
+            BufferedReader insStream = new BufferedReader(new InputStreamReader(socket.getInputStream())))
+        {
             String tempInStreamLine = "";
             outStream.println(SUCCESFUL_CONNECTION);
             while ((tempInStreamLine = insStream.readLine()) != null){
