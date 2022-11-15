@@ -12,6 +12,7 @@ public class Client {
     final String ADDRESS_HOST = "LocalHost";
     final InetAddress IP_ADRESS = InetAddress.getByName(ADDRESS_HOST);
     public Client() throws UnknownHostException {
+        //Clienten är den som kopplar upp sig till servern.
         try (Socket socket = new Socket(IP_ADRESS, PORT_NR);
              BufferedReader insStream = new BufferedReader(new InputStreamReader(socket.getInputStream()))
         ) {
