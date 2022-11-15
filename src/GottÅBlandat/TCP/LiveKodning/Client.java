@@ -9,6 +9,7 @@ public class Client {
     final int PORT_NR = 1234;
     final String ADDRESS_HOST = "LocalHost";
     final String MESSAGE= "Test";
+    final int INTERVAL = 3000;
     final InetAddress IP_ADRESS = InetAddress.getByName(ADDRESS_HOST);
     public Client() throws UnknownHostException {
         try(Socket socket = new Socket(IP_ADRESS,PORT_NR);
@@ -16,7 +17,7 @@ public class Client {
 
             while (true) {
                 outStream.println(MESSAGE);
-                Thread.sleep(3000);
+                Thread.sleep(INTERVAL);
             }
         }catch (Exception e){
             e.printStackTrace();

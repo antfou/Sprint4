@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Notes from leacture.">
-      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Added live coding server and client from lecture.">
+      <change beforePath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCP/LiveKodning/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +256,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1668501877785</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Added live coding server and client from lecture.">
+      <created>1668503635017</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1668503635017</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +299,7 @@
     <MESSAGE value="Done with &quot;Uppgift 13&quot;." />
     <MESSAGE value="Started on &quot;Uppgift 15&quot;." />
     <MESSAGE value="Notes from leacture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Notes from leacture." />
+    <MESSAGE value="Added live coding server and client from lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added live coding server and client from lecture." />
   </component>
 </project>
