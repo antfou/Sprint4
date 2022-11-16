@@ -14,7 +14,7 @@ public class PropertiesVideo {
     public PropertiesVideo(){
         Properties properties = new Properties();
         try{
-            properties.load(new FileInputStream("src/Kladdis/Properties/propertiesVideo.properties"));
+            properties.load(new FileInputStream("src/GottÅBlandat/Properties/propertiesVideo.properties"));
         }catch (FileNotFoundException e){
             System.out.println("Error: File not found.");
             e.printStackTrace();

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift5&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/Serialiserade/SerialiseradeVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift6/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift6/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift6/Kompis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uppgift6/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkeletonsByLeroy/BothCatchAndRecieve/ClientSkeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkeletonsByLeroy/BothCatchAndRecieve/ServerSkeleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift5/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift5/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GottÅBlandat/Properties/PropertiesVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Properties/PropertiesVideo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,28 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hexpo/OneDrive/Skrivbord/JavaUtveckling1/Swing4/Sprint4/src/Uppgift6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hexpo/OneDrive/Skrivbord/JavaUtveckling1/Swing4/Sprint4/src/Uppgift6&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hexpo\OneDrive\Skrivbord\JavaUtveckling1\Swing4\Sprint4\src\Uppgift6" />
       <recent name="C:\Users\hexpo\OneDrive\Skrivbord\JavaUtveckling1\Swing4\Sprint4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Uppgift6.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.TCP.LiveKodning.Client" />
+  <component name="RunManager" selected="Application.ClientSkeleton">
+    <configuration name="ClientSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkeletonsByLeroy.BothCatchAndRecieve.ClientSkeleton" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GottÅBlandat.TCP.LiveKodning.*" />
+          <option name="PATTERN" value="SkeletonsByLeroy.BothCatchAndRecieve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift5.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift5.Client" />
+    <configuration name="PropertiesVideo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GottÅBlandat.Properties.PropertiesVideo" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift5.*" />
+          <option name="PATTERN" value="GottÅBlandat.Properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift5.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift5.Server" />
+    <configuration name="ServerSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkeletonsByLeroy.BothCatchAndRecieve.ServerSkeleton" />
       <module name="Sprint4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uppgift5.*" />
+          <option name="PATTERN" value="SkeletonsByLeroy.BothCatchAndRecieve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Uppgift5.Client" />
-      <item itemvalue="Application.Uppgift5.Server" />
+      <item itemvalue="Application.ClientSkeleton" />
+      <item itemvalue="Application.PropertiesVideo" />
+      <item itemvalue="Application.ServerSkeleton" />
       <item itemvalue="Application.Uppgift6.Client" />
       <item itemvalue="Application.Uppgift6.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSkeleton" />
+        <item itemvalue="Application.ServerSkeleton" />
+        <item itemvalue="Application.PropertiesVideo" />
         <item itemvalue="Application.Uppgift6.Client" />
         <item itemvalue="Application.Uppgift6.Server" />
-        <item itemvalue="Application.Uppgift5.Client" />
-        <item itemvalue="Application.Uppgift5.Server" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
