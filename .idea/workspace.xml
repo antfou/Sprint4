@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Done with &quot;Uppgift6&quot;.">
+    <list default="true" id="8f01774a-c943-43a4-9e7b-2b8ea2a5e279" name="Changes" comment="Notes from Serializable lecture.">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GottÅBlandat/TCPMultiuser/MultiuserLabb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/Kompis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/Protokoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uppgift10/ServerListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GottÅBlandat/Serialiserade/SerialiseradeVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GottÅBlandat/Serialiserade/SerialiseradeVideo.java" afterDir="false" />
     </list>
@@ -46,7 +54,7 @@
       <recent name="C:\Users\hexpo\OneDrive\Skrivbord\JavaUtveckling1\Swing4\Sprint4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientSkeleton">
+  <component name="RunManager" selected="Application.Uppgift10.Client">
     <configuration name="ClientSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SkeletonsByLeroy.BothCatchAndRecieve.ClientSkeleton" />
       <module name="Sprint4" />
@@ -73,6 +81,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift5.Server" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift10.ServerListener" />
+      <module name="Sprint4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerSkeleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SkeletonsByLeroy.BothCatchAndRecieve.ServerSkeleton" />
       <module name="Sprint4" />
@@ -86,46 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uppgift6.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift6.Client" />
-      <module name="Sprint4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Uppgift6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Uppgift6.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift6.Server" />
-      <module name="Sprint4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Uppgift6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Uppgift10.Client" />
+      <item itemvalue="Application.ServerListener" />
+      <item itemvalue="Application.Server" />
       <item itemvalue="Application.ClientSkeleton" />
       <item itemvalue="Application.PropertiesVideo" />
       <item itemvalue="Application.ServerSkeleton" />
-      <item itemvalue="Application.Uppgift6.Client" />
-      <item itemvalue="Application.Uppgift6.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerListener" />
+        <item itemvalue="Application.Uppgift10.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.ClientSkeleton" />
-        <item itemvalue="Application.ServerSkeleton" />
-        <item itemvalue="Application.PropertiesVideo" />
-        <item itemvalue="Application.Uppgift6.Client" />
-        <item itemvalue="Application.Uppgift6.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +153,7 @@
       <workItem from="1668427001124" duration="777000" />
       <workItem from="1668433031278" duration="932000" />
       <workItem from="1668671757293" duration="139000" />
-      <workItem from="1668671944949" duration="1313000" />
+      <workItem from="1668671944949" duration="5251000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1667894182604</created>
@@ -303,7 +313,13 @@
       <option name="presentableId" value="LOCAL−00025" />
       <updated>1668514394289</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL−00026" summary="Notes from Serializable lecture.">
+      <created>1668673290330</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1668673290330</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +361,7 @@
     <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Added ACKNOWLEDGED and CONNECTION feature to live code." />
     <MESSAGE value="Done with &quot;Uppgift5&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with &quot;Uppgift5&quot;." />
+    <MESSAGE value="Notes from Serializable lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes from Serializable lecture." />
   </component>
 </project>

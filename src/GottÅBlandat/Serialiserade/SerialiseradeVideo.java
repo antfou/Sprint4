@@ -13,7 +13,7 @@ public class SerialiseradeVideo {
 
     //Kom ihåg att skriva objekt för allt.
     //t.ex "Success", "kvittens", "initiator" för att läsa dem med instanceof till och från servern för att ha koll på vad som händer.
-
+        //Kolla uppgift 7 facit
 
 
 }
