@@ -35,8 +35,9 @@ public class Client {
                 outStream.println(fromUser);
                 System.out.println("Sent to server: " + fromUser);
 
-                fromServer = insStream.readLine();
+                fromServer = insStream.readLine().toString();
                 System.out.println(fromServer);
+
             }
 
         } catch (Exception e) {

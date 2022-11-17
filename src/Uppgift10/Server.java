@@ -25,19 +25,10 @@ public class Server extends Thread{
             outStream.println(protokoll.getOutput(null));
             String tempString = "";
             while ((tempString = insStream.readLine()) != null) {
-                if (database.hämtaKompis(tempString) == null) {
-                    databaseAnswer = protokoll.getOutput(tempString).trim();
-                    outStream.println("Du skrev: " + tempString +
-                            ". Den personen är inte din kompis.");
-                } else {
                     outStream.println(database.hämtaKompis(tempString));
-                }
             }
         }catch (Exception e){
             e.printStackTrace();
         }
-    }
-    public static void main(String[] args) {
-        new Uppgift5.Server();
     }
 }

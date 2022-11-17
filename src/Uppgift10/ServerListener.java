@@ -15,13 +15,10 @@ public class ServerListener {
                 Server server = new Server(socket);
                 server.start();
             }
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-
-
     public static void main(String[] args) {
         new ServerListener();
     }

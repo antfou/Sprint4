@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Database {
+    final String KOMPIS_NOT_FOUND = "Denna kompis är inte inlagd i din telefonbok.";
 
     private final Uppgift5.Kompis KOMPIS_1 = new Uppgift5.Kompis("Anton",
             "0701234567","8e Mars",
@@ -16,7 +17,6 @@ public class Database {
     private final Uppgift5.Kompis KOMPIS_3 = new Uppgift5.Kompis("Jani",
             "0701234987","5e September",
             "JHakala@mailhemsida.se");
-
     private final List<Uppgift5.Kompis> KOMPIS_LISTA = new ArrayList<>();
 
     public Database(){
@@ -28,9 +28,8 @@ public class Database {
         for(Kompis kompis: KOMPIS_LISTA){
             if (kompis.getNamn().equalsIgnoreCase(input)){
                 return kompis.getKompis();
-            }else{
             }
         }
-        return null;
+        return KOMPIS_NOT_FOUND;
     }
 }
