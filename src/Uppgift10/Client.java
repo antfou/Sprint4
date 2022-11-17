@@ -35,8 +35,12 @@ public class Client {
                 outStream.println(fromUser);
                 System.out.println("Sent to server: " + fromUser);
 
-                fromServer = insStream.readLine().toString();
-                System.out.println(fromServer);
+                fromServer = insStream.readLine();
+                if(fromServer!=null){
+                System.out.println(fromServer);}
+                else {
+                    System.out.println("allaala");
+                }
 
             }
 

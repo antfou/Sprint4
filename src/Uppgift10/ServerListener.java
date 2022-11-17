@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class ServerListener {
     final int PORT_NR = 1234;
+
     public ServerListener(){
 
         try (ServerSocket serverSocket = new ServerSocket(PORT_NR);){
